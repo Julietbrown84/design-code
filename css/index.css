@@ -206,6 +206,15 @@ h1 {
     margin-top: 10%;
     font-size: 100%;
 }
+h2 {
+	color: red;
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 1%;
+    margin-top: 10%;
+    font-size: 150%;
+}
+
 
 p {
 	font-family: 'Avenir',sans-serif;
