@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
    
   var current_h = null;
   var current_w = null;
