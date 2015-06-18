@@ -1,9 +1,94 @@
+
 .image1 {
 
-
-border-radius:50% 50% 50% 50%;  
-width:300px;
-height:300px;
-margin-left: 55%;
+	border-radius:50% 50% 50% 50%;  
+	width:310px;
+	height:310px;
+	margin-left: 60%;
+	margin-top: 7%;
+	position: absolute;
 
 }
+
+.title { 
+  font-family: 'Avenir',sans-serif;
+  font-weight: lighter;
+  margin-left: 15%;
+  margin-top: 18%;
+  font-size: 470%;
+  position: absolute;
+}
+
+.letter {
+ 	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 15%;
+    margin-top: 25%;
+    font-size: 470%;
+    position: absolute;
+
+}
+
+.redletter {
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 20%;
+    margin-top: 25%;
+    font-size: 470%;
+    position: absolute;
+}
+
+.letter2 {
+ 	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 24%;
+    margin-top: 25%;
+   font-size: 470%;
+   position: absolute;
+
+}
+
+h4 {
+color: red;
+}
+h1 {
+	color: red;
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 24%;
+    margin-top: 10%;
+   font-size: 100%;
+}
+p {
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 24%;
+    margin-top: 10%;
+   font-size: 100%;
+
+}
+.contact {
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	margin-left: 15%;
+    margin-top: 33%;
+    font-size: 100%;
+    position: absolute;
+}
+
+
+.reddot {
+  width: 20px;
+  height:20px;
+  margin-left: 47%;
+  margin-top: 28.5%
+}
+
+.puzzel {
+ margin-top: 5%;
+ margin-left: 10%;
+ width: 5%;
+ height: 5%;
+}
+
+
