@@ -26,7 +26,7 @@
 	width: 100%;
 	background: #f6f6f6;
 	z-index: 10000;
-	height: 130px;
+	height: 100px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -149,6 +149,7 @@
 }
 
 .image1 {
+
 	border-radius:50% 50% 50% 50%;  
 	width:370px;
 	height:370px;
@@ -213,6 +214,13 @@ h1 {
     font-weight: normal;
    	margin-left: 24%;
     margin-top: 10%;
+    font-size: 100%;
+}
+h5 {
+	font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+   	/*margin-left: 24%;
+    margin-top: 10%;*/
     font-size: 100%;
 }
 h2 {
