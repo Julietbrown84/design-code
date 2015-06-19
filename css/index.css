@@ -270,7 +270,9 @@ p {
     font-size: 100%;
     position: absolute;
 }
-
+.passion{
+	margin-top: 20px;
+}
 
 .reddot {
 	  width: 20px;
@@ -279,7 +281,7 @@ p {
 	  margin-top: 28.5%
 }
 
-.puzzel {
+.puzzle {
 	 margin-top: 8%;
 	 margin-left: 13%;
 	 width: 5%;
