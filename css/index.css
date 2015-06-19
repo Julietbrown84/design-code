@@ -206,7 +206,7 @@
 }
 
 p:hover, h1:hover, h5:hover, a:hover {
-   color: #2F4F4F;
+   color: black;
 }
 
 h2:hover, {
@@ -216,6 +216,11 @@ h2:hover, {
 h4 {
     color: red;
 }
+h7 {
+    color: black;
+    font-size: 120%;
+    font-family: 'Avenir',sans-serif;
+}
 h1 {
 	color: red;
 	font-family: 'Avenir',sans-serif;
@@ -223,6 +228,10 @@ h1 {
    	margin-left: 24%;
     margin-top: 10%;
     font-size: 100%;
+}
+h6 {
+	font-family: 'Avenir',sans-serif;
+	font-size: 70%;
 }
 
 h5 {
@@ -232,7 +241,7 @@ h5 {
     margin-top: 10%;*/
     font-size: 100%;
     
-    color: #696969;
+    color: #808080;
 }
 h2 {
 	color: red;
