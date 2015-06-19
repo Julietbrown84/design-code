@@ -1,12 +1,14 @@
 $(document).ready(function(){
   var cbpAnimatedHeader = (function() {
 
+
   var docElem = document.documentElement,
     header = document.querySelector( '.cbp-af-header' ),
     didScroll = false,
     changeHeaderOn = 300;
 
   function init() {
+    console.log("hit");
     window.addEventListener( 'scroll', function( event ) {
       if( !didScroll ) {
         didScroll = true;
@@ -32,8 +34,8 @@ $(document).ready(function(){
 
   init();
 
-   
 })();
+});
 
 
    
