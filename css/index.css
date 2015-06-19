@@ -1,4 +1,5 @@
 
+
 #content {
     float:left;
     width:400px;
@@ -76,10 +77,10 @@ a {
 
 }
 a:hover {
-  
+  color: #5F9EA0;
 }
 
-p:hover, h1:hover, h5:hover, a:hover {
+p:hover, h1:hover, h5:hover {
    color: black;
 }
 

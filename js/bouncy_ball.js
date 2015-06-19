@@ -1,3 +1,7 @@
-$( document ).ready(function() {
-  $( ".reddot" ).toggle( "bounce", { times: 3 }, "slow" );
-});
+
+ $(document).ready(function() {
+
+       $(".target").effect( "bounce", {times:5}, 300 );
+    });
+
+ });

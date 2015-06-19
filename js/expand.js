@@ -1,9 +1,6 @@
 
 $(document).ready(function(){
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
-
+  
   var current_h = null;
   var current_w = null;
 
