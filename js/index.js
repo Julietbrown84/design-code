@@ -7,15 +7,15 @@ $(document).ready(function(){
     didScroll = false,
     changeHeaderOn = 300;
 
-  // function init() {
-  //   console.log("hit");
-  //   window.addEventListener( 'scroll', function( event ) {
-  //     if( !didScroll ) {
-  //       didScroll = true;
-  //       setTimeout( scrollPage, 250 );
-  //     }
-  //   }, false );
-  // }
+  function init() {
+    console.log("hit");
+    window.addEventListener( 'scroll', function( event ) {
+      if( !didScroll ) {
+        didScroll = true;
+        setTimeout( scrollPage, 250 );
+      }
+    }, false );
+  }
 
   function scrollPage() {
     var sy = scrollY();
