@@ -205,6 +205,14 @@
 
 }
 
+p:hover, h1:hover, h5:hover, a:hover {
+   color: #2F4F4F;
+}
+
+h2:hover, {
+   color: #B22222;
+}
+
 h4 {
     color: red;
 }
@@ -223,6 +231,8 @@ h5 {
    	/*margin-left: 24%;
     margin-top: 10%;*/
     font-size: 100%;
+    
+    color: #696969;
 }
 h2 {
 	color: red;
