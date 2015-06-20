@@ -1,7 +1,7 @@
 $(document).ready(function () {     
-    var bouncetime = 1000;
-    var ballheight = 280;
-    var ballsize = 20;
+    var bouncetime = 200;
+    var ballheight = 200;
+    var ballsize = 18;
  
     $('#ball').css({'width':ballsize, 'height':ballsize, 'margin-left':-(ballsize/2),'display':'block', 'bottom':ballheight});
     $('#shadow').css({'width':ballsize*1., 'height':ballsize/1, 'margin-left':-(ballsize*0.10),'display':'block', 'opacity':0.2});
