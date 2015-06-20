@@ -1,10 +1,9 @@
-
-heme Name: Vivarelli
+/*
+Theme Name: Vivarelli
 Theme URI: http://neuethemes.org/
 Description: A clean, minimalist Swiss graphic design inspired layout;
 
 /*----------------------------------------------------------------------------------------------------------------------- */
-html, body { position: fixed; height: 100%; width: 100%; } 
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -25,14 +24,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
-body {
-  line-height: 2;
-    color: black;
-  background: white;
-}
-
-ol, ul { list-style: none;}
-
+body {line-height: 2;color: black; background: white;}
+ol, ul { list-style: none;}ß
 h2{font-size:11px; font-weight:normal; margin-top:8px;}
 h3{text-decoration:none; color:#000000; font-family: Courier New, serif; text-transform: uppercase; letter-spacing: 1px; font-size:17px; font-weight:solid; padding:30px 0 0 0; }
 h4{text-decoration:none; color:#F3E5AB; font-family: Courier New, serif; text-transform: uppercase; letter-spacing: 1px; font-size:17px; font-weight:solid; padding:30px 0 0 0; }
@@ -100,5 +93,9 @@ a:hover                                                { text-decoration:underli
 .comment_container                       {margin-top: 20px; padding:5px; border:0px #CCCCCC;}
 .comment_box                             {background:none repeat scroll 0 0 #CCCCCC; padding:8px; border:0px #CCCCCC;}
 .header_widget li                        {float:left;}
+
+
+
+
 
 
