@@ -1,41 +1,41 @@
-$(document).ready(function(){
-  var cbpAnimatedHeader = (function() {
+// $(document).ready(function(){
+//   var cbpAnimatedHeader = (function() {
 
 
-  var docElem = document.documentElement,
-    header = document.querySelector( '.cbp-af-header' ),
-    didScroll = false,
-    changeHeaderOn = 300;
+//   var docElem = document.documentElement,
+//     header = document.querySelector( '.cbp-af-header' ),
+//     didScroll = false,
+//     changeHeaderOn = 300;
 
-  function init() {
-    console.log("hit");
-    window.addEventListener( 'scroll', function( event ) {
-      if( !didScroll ) {
-        didScroll = true;
-        setTimeout( scrollPage, 250 );
-      }
-    }, false );
-  }
+//   function init() {
+//     console.log("hit");
+//     window.addEventListener( 'scroll', function( event ) {
+//       if( !didScroll ) {
+//         didScroll = true;
+//         setTimeout( scrollPage, 250 );
+//       }
+//     }, false );
+//   }
 
-  function scrollPage() {
-    var sy = scrollY();
-    if ( sy >= changeHeaderOn ) {
-      classie.add( header, 'cbp-af-header-shrink' );
-    }
-    else {
-      classie.remove( header, 'cbp-af-header-shrink' );
-    }
-    didScroll = false;
-  }
+//   function scrollPage() {
+//     var sy = scrollY();
+//     if ( sy >= changeHeaderOn ) {
+//       classie.add( header, 'cbp-af-header-shrink' );
+//     }
+//     else {
+//       classie.remove( header, 'cbp-af-header-shrink' );
+//     }
+//     didScroll = false;
+//   }
 
-  function scrollY() {
-    return window.pageYOffset || docElem.scrollTop;
-  }
+//   function scrollY() {
+//     return window.pageYOffset || docElem.scrollTop;
+//   }
 
-  init();
+//   init();
 
-})();
-});
+// })();
+// });
 
 
    

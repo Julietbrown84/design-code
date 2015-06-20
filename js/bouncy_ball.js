@@ -1,7 +1,14 @@
 
  $(document).ready(function() {
 
-       $(".target").effect( "bounce", {times:5}, 300 );
-    });
-
+  
+	$(function() {
+		setInterval(function(){
+			BounceAnimation('10px', 300)
+		}, 1000) 
+	});
+	function BounceAnimation(distance, speed) {
+	        $("#bounce").animate({marginTop: '-='+distance}, speed)
+	        .animate({marginTop: '+='+distance}, speed);       
+	}
  });
